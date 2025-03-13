@@ -600,6 +600,10 @@ img {
     margin-bottom: 8px;
 }
 
+.form-field-comment {
+    margin-bottom: 16px;
+}
+
 .form-label {
     display: block;
     margin-bottom: 4px;
@@ -648,9 +652,10 @@ img {
 }
 
 .form-field:focus-within .form-input,
-.form-field:focus-within .form-textarea,
 .form-field:focus-within .form-label,
-.form-field:focus-within .input-icon {
+.form-field:focus-within .input-icon,
+.form-field-comment:focus-within .form-textarea,
+.form-field-comment:focus-within .form-label {
     border-color: var(--iris);
     outline: none;
     color: var(--iris);
